@@ -1,0 +1,15 @@
+{
+  "name": "movies-info-getter",
+  "version": "0.0.1",
+  "description": "Gather movies information from website",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js https://www.filmaffinity.com/es/listtopmovies.php?list_id=508"
+  },
+  "author": "Josep Hervás",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "node-html-parser": "^5.3.3"
+  }
+}
