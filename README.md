@@ -14,4 +14,8 @@ A Node.js program to retrieve movie details from filmaffinity movie pages or mov
   node index.js --movie https://www.filmaffinity.com/es/film309023.html movie.json img/
   
   The same but only for a specific movie. It will also return a json file with an array of an unique element (the movie)
-  and it will download its cover image inside the images folder
+  and it will download its cover image inside the images folder.
+  
+# Limitations
+
+  It's been only tested in the spanish version of FilmAffinity.
