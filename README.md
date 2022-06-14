@@ -15,6 +15,14 @@ A Node.js program to retrieve movie details from filmaffinity movie pages or mov
   
   The same but only for a specific movie. It will also return a json file with an array of an unique element (the movie)
   and it will download its cover image inside the images folder.
+
+# Installation
+  
+  git clone https://github.com/gestur1976/filmaffinity-movie-info-scrapper.git
+  
+  cd filmaffinity-movie-info-scrapper
+  
+  yarn install
   
 # Limitations
 
