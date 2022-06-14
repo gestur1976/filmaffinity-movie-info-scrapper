@@ -4,7 +4,7 @@ A Node.js program to retrieve movie details from filmaffinity movie pages or mov
 
   Usage: node index.js [--list|--movie] <url> <output.json> <cover-images-folder>
 
-#Examples
+# Examples
    
   node index.js --list https://www.filmaffinity.com/es/listtopmovies.php?list_id=508 movies.json img/
   
