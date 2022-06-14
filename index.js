@@ -1,7 +1,7 @@
 const HTMLParser = require('node-html-parser');
 const axios = require('axios');
 const fs = require('fs');
-const pelicula = require('moviedataextractor');
+const pelicula = require('./moviedataextractor.js');
 const { Console } = require('console');
 const { listeners } = require('process');
 
@@ -75,6 +75,7 @@ if (!process.argv[2].localeCompare('--list')) {
     const ranking = 1;
     const link = process.argv[3].toString();
     peticiones_pendientes++;
+    setTimeout(finalizado, 5000);
     pelicula.procesar(link, ranking, function(pelicula) {
         const url_imagen = pelicula.picture.length ? pelicula.picture[0] : null;
         const url_flag = pelicula.country_flag;
