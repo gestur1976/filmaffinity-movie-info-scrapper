@@ -9,7 +9,7 @@ A Node.js program to retrieve movie details from filmaffinity movie pages or mov
   node index.js --list https://www.filmaffinity.com/es/listtopmovies.php?list_id=508 movies.json img/
   
   This will create movies.json file containing an array of all movies of the list and its details, and it 
-  will also download the cover image inside img/ folder with the same file name as the one referenced in the json file.
+  will also download all cover images inside img/ folder with the same file names as the ones referenced in the json file.
   
   node index.js --movie https://www.filmaffinity.com/es/film309023.html movie.json img/
   
