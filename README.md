@@ -26,4 +26,4 @@ A Node.js program to retrieve movie details from filmaffinity movie pages or mov
   
 # Limitations
 
-  It's been only tested in the spanish version of FilmAffinity.
+  It's been developed based on spanish version of FilmAffinity, but it seems to work for all languages I've tested.
